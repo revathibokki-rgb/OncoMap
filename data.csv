@@ -1,0 +1,51 @@
+biomarker,biomarker_type,cancer_associations,alteration_type,alterations,example_therapies,testing,trial_search_terms,evidence_level
+EGFR,Genomic,NSCLC,Mutation,Exon 19 deletion; L858R; Exon 20 insertion; T790M,Osimertinib; Gefitinib; Erlotinib,Molecular testing; NGS; PCR,NSCLC EGFR,Regulatory/clinical
+ALK,Genomic,NSCLC,Fusion,ALK rearrangement/fusion,Alectinib; Brigatinib; Lorlatinib; Crizotinib,IHC; FISH; NGS,NSCLC ALK,Regulatory/clinical
+ROS1,Genomic,NSCLC,Fusion,ROS1 rearrangement/fusion,Crizotinib; Entrectinib; Repotrectinib,FISH; NGS; IHC in selected contexts,NSCLC ROS1,Regulatory/clinical
+BRAF,Genomic,Melanoma; NSCLC; colorectal cancer,Mutation,V600E and other specified variants,Dabrafenib; Trametinib; Encorafenib; Binimetinib,PCR; NGS; validated molecular assays,BRAF V600,Regulatory/clinical
+KRAS G12C,Genomic,NSCLC; colorectal cancer,Mutation,G12C,Sotorasib; Adagrasib,Molecular testing; tissue/plasma assays where applicable,KRAS G12C,Regulatory/clinical
+MET,Genomic/protein,NSCLC,Exon skipping / amplification / expression,MET exon 14 skipping; selected MET alterations,Capmatinib; Tepotinib,NGS; PCR; other validated assays,NSCLC MET,Regulatory/clinical
+RET,Genomic,NSCLC; thyroid cancer,Fusion/mutation,RET fusion; selected activating mutations,Selpercatinib; Pralsetinib,NGS; FISH; PCR,RET altered cancer,Regulatory/clinical
+NTRK,Genomic,Solid tumours,Fusion,NTRK1/2/3 fusion,Larotrectinib; Entrectinib,RNA/DNA NGS; FISH; IHC with confirmation,NTRK fusion,Regulatory/clinical
+HER2,Protein/genomic,Breast; gastric/GEJ; selected solid tumours,Expression/amplification/mutation,IHC overexpression; amplification; selected activating mutations,Trastuzumab; Pertuzumab; Trastuzumab deruxtecan; T-DM1,IHC; ISH; molecular testing,HER2 altered/expression,Regulatory/clinical
+BRCA1/2,Genomic,Breast; ovarian; pancreatic; prostate,Mutation,Pathogenic germline/somatic variants,Olaparib; Talazoparib; Rucaparib,Germline and/or tumour sequencing,BRCA1 BRCA2,Regulatory/clinical
+PIK3CA,Genomic,Breast cancer,Mutation,Selected PIK3CA mutations,Alpelisib; Inavolisib in relevant settings,PCR/NGS,PIK3CA mutated breast cancer,Regulatory/clinical
+ESR1,Genomic,Breast cancer,Mutation,Activating ESR1 mutation,Elacestrant; other relevant endocrine strategies,ctDNA/tumour molecular testing,ESR1 mutated breast cancer,Regulatory/clinical
+AKT1,Genomic,Breast cancer,Mutation,Selected activating AKT1 mutations,Capivasertib in relevant settings,Molecular testing,AKT1 altered breast cancer,Regulatory/clinical
+FGFR2,Genomic,Cholangiocarcinoma,Fusion/rearrangement,FGFR2 fusion/rearrangement,Pemigatinib; Futibatinib,NGS/FISH/validated molecular assays,FGFR2 fusion cholangiocarcinoma,Regulatory/clinical
+IDH1,Genomic,Cholangiocarcinoma; glioma,Mutation,IDH1 mutation,Ivosidenib,Molecular testing,IDH1 mutated cancer,Regulatory/clinical
+IDH2,Genomic,Selected myeloid malignancies,Mutation,IDH2 mutation,Enasidenib,Molecular testing,IDH2 mutated AML,Regulatory/clinical
+MSI-H,Composite genomic,Solid tumours,Instability,Microsatellite instability-high,Pembrolizumab and other relevant immunotherapy strategies,PCR; NGS; IHC for MMR proteins,MSI-H solid tumour,Regulatory/clinical
+dMMR,Composite protein/genomic,Solid tumours,Mismatch repair deficiency,Loss of MMR protein expression/function,Pembrolizumab and other relevant immunotherapy strategies,IHC; MSI testing; NGS,dMMR solid tumour,Regulatory/clinical
+TMB-H,Composite genomic,Solid tumours,Mutation burden,High tumour mutational burden,Pembrolizumab in specified settings,Validated NGS assay,TMB-H solid tumour,Regulatory/clinical
+PD-L1,Protein,Multiple solid tumours,Expression,PD-L1 expression by validated assay,Pembrolizumab; atezolizumab; durvalumab and others by indication,IHC companion/diagnostic assays,PD-L1 expression,Regulatory/clinical
+PSMA,Protein,Prostate cancer,Expression,PSMA expression,Lutetium Lu 177 vipivotide tetraxetan in specified settings,PSMA PET imaging,PSMA-positive prostate cancer,Regulatory/clinical
+HRD,Composite genomic,Ovarian and selected cancers,Genomic instability,Homologous recombination deficiency,PARP inhibitors in specified settings,Genomic scar/validated HRD assays,HRD positive,Clinical/regulatory
+PALB2,Genomic,Breast; pancreatic and selected cancers,Mutation,Pathogenic PALB2 variant,PARP inhibitors/investigational strategies depending on context,Germline/tumour sequencing,PALB2 altered,Clinical/investigational
+ATM,Genomic,Prostate and selected cancers,Mutation,Pathogenic ATM alteration,PARP inhibitor evidence varies by indication,Germline/tumour sequencing,ATM altered,Clinical
+PTEN,Genomic/protein,Multiple solid tumours,Loss/mutation,PTEN loss or alteration,Context-dependent/investigational,IHC; sequencing,PTEN altered,Clinical/investigational
+NF1,Genomic,Melanoma and selected tumours,Loss/mutation,NF1 alteration,Context-dependent/investigational,Sequencing,NF1 altered,Research
+NRAS,Genomic,Melanoma,Mutation,NRAS mutation,Clinical/investigational strategies,Molecular testing,NRAS melanoma,Clinical/investigational
+KIT,Genomic,Melanoma; GIST and other tumours,Mutation,Activating KIT alterations,Imatinib and other TKIs by indication,Molecular testing,KIT altered,Regulatory/clinical
+PDGFRA,Genomic,GIST,Mutation,Selected PDGFRA alterations,Imatinib; avapritinib for selected variants,Molecular testing,PDGFRA altered GIST,Regulatory/clinical
+SDH,Genomic,GIST/paraganglioma and others,Loss/mutation,SDHx alterations,Context-dependent,IHC; sequencing,SDH deficient,Clinical
+VHL,Genomic,Renal cell carcinoma,Mutation/inactivation,VHL alteration,Belzutifan in specified settings,Molecular testing,VHL altered,Regulatory/clinical
+HIF2A,Genomic,Renal cell carcinoma,Mutation,EPAS1/HIF2A alterations,Belzutifan targets HIF-2α pathway,Molecular testing,HIF pathway,Research/clinical
+MET amplification,Genomic,Selected solid tumours,Amplification,MET amplification,Context-dependent targeted strategies,FISH/NGS,MET amplified,Clinical/investigational
+ERBB2 mutation,Genomic,NSCLC and other solid tumours,Mutation,Activating HER2/ERBB2 mutation,Selected HER2-directed therapies by indication,NGS,ERBB2 mutated,Regulatory/clinical
+KRAS G12D,Genomic,Pancreatic and other solid tumours,Mutation,G12D,Investigational KRAS G12D inhibitors,Molecular testing,KRAS G12D,Investigational
+KRAS G12V,Genomic,Multiple solid tumours,Mutation,G12V,Investigational strategies,Molecular testing,KRAS G12V,Investigational
+RET mutation,Genomic,Medullary thyroid cancer,Mutation,Activating RET mutation,Selpercatinib; Pralsetinib,Molecular testing,RET mutated thyroid cancer,Regulatory/clinical
+ALK mutation,Genomic,Selected tumours,Mutation,Secondary resistance alterations,Next-generation ALK inhibitors depending on context,NGS,ALK resistance,Clinical
+ROS1 resistance,Genomic,NSCLC,Mutation,Secondary ROS1 kinase-domain alterations,Next-generation ROS1 inhibitors depending on context,NGS,ROS1 resistance,Clinical
+EGFR C797S,Genomic,NSCLC,Mutation,C797S resistance alteration,Investigational/context-dependent strategies,NGS,EGFR resistance,Investigational
+EGFR exon 20 insertion,Genomic,NSCLC,Insertion,Exon 20 insertion,Amivantamab and other relevant agents by indication,NGS/PCR,EGFR exon 20 insertion,Regulatory/clinical
+MET exon 14 skipping,Genomic,NSCLC,Splice alteration,Exon 14 skipping,Capmatinib; Tepotinib,RNA/DNA NGS; PCR,MET exon 14,Regulatory/clinical
+BRAF fusion,Genomic,Multiple solid tumours,Fusion,BRAF fusion,Context-dependent/investigational,RNA/DNA NGS,BRAF fusion,Clinical/investigational
+ALK fusion,Genomic,NSCLC,Fusion,ALK rearrangement,Alectinib; Brigatinib; Lorlatinib,FISH/NGS/IHC,ALK NSCLC,Regulatory/clinical
+ROS1 fusion,Genomic,NSCLC,Fusion,ROS1 rearrangement,Crizotinib; Entrectinib; Repotrectinib,NGS/FISH,ROS1 NSCLC,Regulatory/clinical
+RET fusion,Genomic,NSCLC; thyroid cancer,Fusion,RET rearrangement,Selpercatinib; Pralsetinib,NGS/FISH/PCR,RET fusion,Regulatory/clinical
+TRK fusion,Genomic,Solid tumours,Fusion,NTRK1/2/3 fusion,Larotrectinib; Entrectinib,NGS/FISH/IHC with confirmation,NTRK fusion,Regulatory/clinical
+FOLR1,Protein,Ovarian cancer,Expression,FRα expression,Mirvetuximab soravtansine in specified settings,IHC,FOLR1/FRα positive,Regulatory/clinical
+Claudin 18.2,Protein,Gastric/GEJ cancer,Expression,CLDN18.2 expression,Zolbetuximab in specified settings,IHC,CLDN18.2 positive,Regulatory/clinical
+CEACAM5,Protein,Selected solid tumours,Expression,CEA/CEACAM5 expression,Investigational ADC strategies,IHC,CEACAM5 positive,Investigational
