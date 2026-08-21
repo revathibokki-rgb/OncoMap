@@ -17,7 +17,7 @@ button,input,select{font:inherit}.top{background:var(--dark);color:#fff}.nav{max
 </head>
 <body>
 <header class="top"><nav class="nav"><div class="brand">🧬 Onco<span>Map</span> <small>V3</small></div><div class="navlinks">
-<button data-page="home" class="active">Explore</button><button data-page="compare">Compare</button><button data-page="trials">Clinical Trials</button><button data-page="learn">Learn</button>
+<button data-page="home" class="active">Explore</button><button data-page="compare">Compare</button><button data-page="trials">Clinical Trials</button><button data-page="learn">Learn</button><button data-page="cancer">Cancer Explorer</button><button data-page="therapy">Therapy Explorer</button><button data-page="about">Methodology</button>
 </div></nav></header>
 <main class="wrap">
 <section id="homePage">
@@ -38,12 +38,16 @@ button,input,select{font:inherit}.top{background:var(--dark);color:#fff}.nav{max
 <div class="card"><span class="pill">05</span><h3>Biomarker-driven trials</h3><p>Trials may enrich or stratify participants by molecular characteristics. Always verify current eligibility and recruitment status on the trial record.</p></div>
 <div class="card"><span class="pill">06</span><h3>Research workflow</h3><p>Biomarker → alteration → cancer context → diagnostic testing → therapy → evidence → clinical trials.</p></div>
 </div><div class="notice"><b>Educational/research tool:</b> OncoMap is not a diagnostic, treatment-selection or medical-advice tool. Regulatory status, indications, testing requirements and trial recruitment can change.</div></section>
+
+<section id="cancerPage" class="hidden"><h1>Cancer Explorer</h1><p class="muted">Start from a cancer context and explore biomarkers represented in the current OncoMap dataset.</p><div class="toolbar"><input id="cancerQ" placeholder="e.g. NSCLC, breast cancer" style="min-width:300px"><button class="btn" id="cancerBtn">Explore</button></div><div id="cancerOut" class="grid"></div></section>
+<section id="therapyPage" class="hidden"><h1>Therapy Explorer</h1><p class="muted">Start from a therapy term and find biomarker records that mention it in the current dataset.</p><div class="toolbar"><input id="therapyQ" placeholder="e.g. osimertinib" style="min-width:300px"><button class="btn" id="therapyBtn">Explore</button></div><div id="therapyOut" class="grid"></div></section>
+<section id="aboutPage" class="hidden"><h1>OncoMap V4 — Methodology &amp; About</h1><div class="detail"><div class="panel"><h2>Project objective</h2><p>OncoMap is an independent precision-oncology research and knowledge platform designed to help users navigate relationships between biomarkers, molecular alterations, diagnostic testing, therapies, evidence and clinical-trial concepts.</p><h2>Research workflow</h2><div class="flow"><div class="node"><b>01</b><strong>Biomarker</strong></div><div class="node"><b>02</b><strong>Alteration</strong></div><div class="node"><b>03</b><strong>Cancer context</strong></div><div class="node"><b>04</b><strong>Diagnostic testing</strong></div><div class="node"><b>05</b><strong>Therapy</strong></div><div class="node"><b>06</b><strong>Evidence / trials</strong></div></div><h2>Data methodology</h2><p>The current release carries forward the structured 50-record OncoMap dataset. Each record contains biomarker identity, biomarker type, cancer associations, alteration information, testing approaches, example therapies, evidence category and clinical-trial search terminology.</p><p>Static biomarker information is separated conceptually from live trial information. ClinicalTrials.gov results are retrieved at query time and should not be treated as a permanent snapshot of recruitment status.</p></div><div class="panel"><h2>Data provenance</h2><ul><li><b>Static dataset:</b> OncoMap 50-record research dataset.</li><li><b>Clinical trials:</b> ClinicalTrials.gov API v2 and official trial records.</li><li><b>Primary-source principle:</b> Verify regulatory, guideline, diagnostic and therapeutic claims against current authoritative sources.</li><li><b>Release:</b> OncoMap V4 Portfolio Edition.</li></ul><h2>Limitations</h2><p>OncoMap is not a comprehensive clinical knowledge base. Dataset coverage, evidence labels and therapy examples may be incomplete or become outdated. A record does not imply that a therapy is approved for every cancer or alteration shown.</p><h2>Intended use</h2><p>Educational, research and portfolio demonstration. It is not intended to diagnose disease, recommend treatment, determine patient eligibility or replace professional clinical judgment.</p><h2>Project positioning</h2><p><b>Independent precision-oncology research/knowledge-platform project.</b> The platform demonstrates structured biomedical data modeling, search, relationship mapping, evidence-aware presentation and clinical-trial API integration.</p></div></div></section>
 </main>
 <footer class="footer">OncoMap V3 • Independent precision-oncology research/knowledge platform • Verify primary sources before clinical use.</footer>
 <script>
 let DB=[], selected=new Set();
 const $=id=>document.getElementById(id);
-const pages=['homePage','detailPage','comparePage','trialsPage','learnPage'];
+const pages=['homePage','detailPage','comparePage','trialsPage','learnPage','cancerPage','therapyPage','aboutPage'];
 function show(page){pages.forEach(x=>$(x).classList.add('hidden'));$(page+'Page').classList.remove('hidden');document.querySelectorAll('.navlinks button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));}
 function uniq(field){return [...new Set(DB.flatMap(r=>(r[field]||'').split(/[;,]/).map(x=>x.trim()).filter(Boolean)))].sort()}
 function evidenceClass(x){return /investigational|research/i.test(x)?'warn':'evidence'}
@@ -91,6 +95,10 @@ $('search').oninput=render;
 $('clearBtn').onclick=()=>{$('search').value='';$('typeFilter').value='';$('evidenceFilter').value='';$('cancerFilter').value='';render()};
 $('trialBtn').onclick=()=>trials($('trialQ').value||'precision oncology',$('trialStatus').value);
 fetch('data.json').then(r=>r.json()).then(d=>{DB=d;for(const [id,field] of [['typeFilter','type'],['evidenceFilter','evidence']])uniq(field).forEach(x=>$(id).insertAdjacentHTML('beforeend',`<option>${x}</option>`));uniq('cancers').forEach(x=>$( 'cancerFilter').insertAdjacentHTML('beforeend',`<option>${x}</option>`));render();}).catch(()=>{$('grid').innerHTML='<div class="empty">Could not load the OncoMap dataset.</div>'});
+
+function renderExplorer(inputId,outId,field){const q=$(inputId).value.trim().toLowerCase();const out=DB.filter(r=>(r[field]||'').toLowerCase().includes(q));$(outId).innerHTML=q?(out.length?out.map(card).join(''):`<div class="empty">No records matched “${q}”.</div>`):'<div class="empty">Enter a search term to explore.</div>';}
+$('cancerBtn').onclick=()=>renderExplorer('cancerQ','cancerOut','cancers');
+$('therapyBtn').onclick=()=>renderExplorer('therapyQ','therapyOut','therapies');
 </script>
 </body>
 </html>
