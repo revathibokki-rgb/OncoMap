@@ -1,28 +1,18 @@
-# OncoMap
-
-**Precision oncology, mapped clearly.**
-
-OncoMap is a research and learning web application that organizes biomarker knowledge around the relationship:
-
-**Biomarker → Alteration → Testing → Therapy → Evidence → Clinical trials**
+# OncoMap V3
+Precision oncology research/knowledge platform.
 
 ## Features
-- 50-biomarker structured library
-- Search across biomarkers, cancer contexts, alterations and therapies
-- Evidence-level filters
-- Biomarker detail pages
-- Save/favourite biomarkers in the browser
+- 50-record biomarker dataset carried forward from OncoMap V2
+- Search and multi-dimensional filters
+- Biomarker detail pages with alteration → testing → therapy → evidence workflow
 - Compare up to four biomarkers
-- Live ClinicalTrials.gov search
-- Precision-oncology learning section
-- Responsive mobile-first layout
-- PWA manifest and offline cache
-
-## Data
-`data.csv` and `data.json` contain the current structured dataset.
+- ClinicalTrials.gov API v2 exploration
+- Learning section
+- Responsive/PWA-ready static deployment
+- GitHub Pages compatible
 
 ## Deployment
-This is a static web app and can be hosted on GitHub Pages, Vercel or another static host.
+Upload the contents of this folder to the root of the `main` branch of the OncoMap repository. Keep GitHub Pages set to `main` / `root`.
 
 ## Disclaimer
-Educational/research prototype. Not a diagnostic, treatment-selection or medical-advice tool. Verify current regulatory status, evidence and trial information with authoritative sources before clinical use.
+Educational/research tool only. Not a diagnostic, treatment-selection or medical-advice tool. Verify primary sources, current regulatory information and trial eligibility before clinical use.

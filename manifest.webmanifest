@@ -1,1 +1,15 @@
-{"name":"OncoMap","short_name":"OncoMap","start_url":"./","display":"standalone","background_color":"#f6f8fc","theme_color":"#0b1020","description":"Precision oncology research and learning platform","icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "OncoMap V3",
+  "short_name": "OncoMap",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
