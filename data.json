@@ -4,1126 +4,549 @@
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Exon 19 deletion",
-      "L858R",
-      "Exon 20 insertion",
-      "T790M"
-    ],
-    "example_therapies": [
-      "Osimertinib",
-      "Gefitinib",
-      "Erlotinib"
-    ],
-    "testing": [
-      "Molecular testing",
-      "NGS",
-      "PCR"
-    ],
+    "alterations": "Exon 19 deletion; L858R; Exon 20 insertion; T790M",
+    "example_therapies": "Osimertinib; Gefitinib; Erlotinib",
+    "testing": "Molecular testing; NGS; PCR",
     "trial_search_terms": "NSCLC EGFR",
-    "evidence_level": "Regulatory/clinical",
-    "id": "egfr",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "ALK",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Fusion",
-    "alterations": [
-      "ALK rearrangement/fusion"
-    ],
-    "example_therapies": [
-      "Alectinib",
-      "Brigatinib",
-      "Lorlatinib",
-      "Crizotinib"
-    ],
-    "testing": [
-      "IHC",
-      "FISH",
-      "NGS"
-    ],
+    "alterations": "ALK rearrangement/fusion",
+    "example_therapies": "Alectinib; Brigatinib; Lorlatinib; Crizotinib",
+    "testing": "IHC; FISH; NGS",
     "trial_search_terms": "NSCLC ALK",
-    "evidence_level": "Regulatory/clinical",
-    "id": "alk",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "ROS1",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Fusion",
-    "alterations": [
-      "ROS1 rearrangement/fusion"
-    ],
-    "example_therapies": [
-      "Crizotinib",
-      "Entrectinib",
-      "Repotrectinib"
-    ],
-    "testing": [
-      "FISH",
-      "NGS",
-      "IHC in selected contexts"
-    ],
+    "alterations": "ROS1 rearrangement/fusion",
+    "example_therapies": "Crizotinib; Entrectinib; Repotrectinib",
+    "testing": "FISH; NGS; IHC in selected contexts",
     "trial_search_terms": "NSCLC ROS1",
-    "evidence_level": "Regulatory/clinical",
-    "id": "ros1",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "BRAF",
     "biomarker_type": "Genomic",
     "cancer_associations": "Melanoma; NSCLC; colorectal cancer",
     "alteration_type": "Mutation",
-    "alterations": [
-      "V600E and other specified variants"
-    ],
-    "example_therapies": [
-      "Dabrafenib",
-      "Trametinib",
-      "Encorafenib",
-      "Binimetinib"
-    ],
-    "testing": [
-      "PCR",
-      "NGS",
-      "validated molecular assays"
-    ],
+    "alterations": "V600E and other specified variants",
+    "example_therapies": "Dabrafenib; Trametinib; Encorafenib; Binimetinib",
+    "testing": "PCR; NGS; validated molecular assays",
     "trial_search_terms": "BRAF V600",
-    "evidence_level": "Regulatory/clinical",
-    "id": "braf",
-    "cancers": [
-      "Melanoma",
-      "NSCLC",
-      "colorectal cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "KRAS G12C",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC; colorectal cancer",
     "alteration_type": "Mutation",
-    "alterations": [
-      "G12C"
-    ],
-    "example_therapies": [
-      "Sotorasib",
-      "Adagrasib"
-    ],
-    "testing": [
-      "Molecular testing",
-      "tissue/plasma assays where applicable"
-    ],
+    "alterations": "G12C",
+    "example_therapies": "Sotorasib; Adagrasib",
+    "testing": "Molecular testing; tissue/plasma assays where applicable",
     "trial_search_terms": "KRAS G12C",
-    "evidence_level": "Regulatory/clinical",
-    "id": "kras-g12c",
-    "cancers": [
-      "NSCLC",
-      "colorectal cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "MET",
     "biomarker_type": "Genomic/protein",
     "cancer_associations": "NSCLC",
     "alteration_type": "Exon skipping / amplification / expression",
-    "alterations": [
-      "MET exon 14 skipping",
-      "selected MET alterations"
-    ],
-    "example_therapies": [
-      "Capmatinib",
-      "Tepotinib"
-    ],
-    "testing": [
-      "NGS",
-      "PCR",
-      "other validated assays"
-    ],
+    "alterations": "MET exon 14 skipping; selected MET alterations",
+    "example_therapies": "Capmatinib; Tepotinib",
+    "testing": "NGS; PCR; other validated assays",
     "trial_search_terms": "NSCLC MET",
-    "evidence_level": "Regulatory/clinical",
-    "id": "met",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "RET",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC; thyroid cancer",
     "alteration_type": "Fusion/mutation",
-    "alterations": [
-      "RET fusion",
-      "selected activating mutations"
-    ],
-    "example_therapies": [
-      "Selpercatinib",
-      "Pralsetinib"
-    ],
-    "testing": [
-      "NGS",
-      "FISH",
-      "PCR"
-    ],
+    "alterations": "RET fusion; selected activating mutations",
+    "example_therapies": "Selpercatinib; Pralsetinib",
+    "testing": "NGS; FISH; PCR",
     "trial_search_terms": "RET altered cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "ret",
-    "cancers": [
-      "NSCLC",
-      "thyroid cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "NTRK",
     "biomarker_type": "Genomic",
     "cancer_associations": "Solid tumours",
     "alteration_type": "Fusion",
-    "alterations": [
-      "NTRK1/2/3 fusion"
-    ],
-    "example_therapies": [
-      "Larotrectinib",
-      "Entrectinib"
-    ],
-    "testing": [
-      "RNA/DNA NGS",
-      "FISH",
-      "IHC with confirmation"
-    ],
+    "alterations": "NTRK1/2/3 fusion",
+    "example_therapies": "Larotrectinib; Entrectinib",
+    "testing": "RNA/DNA NGS; FISH; IHC with confirmation",
     "trial_search_terms": "NTRK fusion",
-    "evidence_level": "Regulatory/clinical",
-    "id": "ntrk",
-    "cancers": [
-      "Solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "HER2",
     "biomarker_type": "Protein/genomic",
     "cancer_associations": "Breast; gastric/GEJ; selected solid tumours",
     "alteration_type": "Expression/amplification/mutation",
-    "alterations": [
-      "IHC overexpression",
-      "amplification",
-      "selected activating mutations"
-    ],
-    "example_therapies": [
-      "Trastuzumab",
-      "Pertuzumab",
-      "Trastuzumab deruxtecan",
-      "T-DM1"
-    ],
-    "testing": [
-      "IHC",
-      "ISH",
-      "molecular testing"
-    ],
+    "alterations": "IHC overexpression; amplification; selected activating mutations",
+    "example_therapies": "Trastuzumab; Pertuzumab; Trastuzumab deruxtecan; T-DM1",
+    "testing": "IHC; ISH; molecular testing",
     "trial_search_terms": "HER2 altered/expression",
-    "evidence_level": "Regulatory/clinical",
-    "id": "her2",
-    "cancers": [
-      "Breast",
-      "gastric/GEJ",
-      "selected solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "BRCA1/2",
     "biomarker_type": "Genomic",
     "cancer_associations": "Breast; ovarian; pancreatic; prostate",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Pathogenic germline/somatic variants"
-    ],
-    "example_therapies": [
-      "Olaparib",
-      "Talazoparib",
-      "Rucaparib"
-    ],
-    "testing": [
-      "Germline and/or tumour sequencing"
-    ],
+    "alterations": "Pathogenic germline/somatic variants",
+    "example_therapies": "Olaparib; Talazoparib; Rucaparib",
+    "testing": "Germline and/or tumour sequencing",
     "trial_search_terms": "BRCA1 BRCA2",
-    "evidence_level": "Regulatory/clinical",
-    "id": "brca1-2",
-    "cancers": [
-      "Breast",
-      "ovarian",
-      "pancreatic",
-      "prostate"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "PIK3CA",
     "biomarker_type": "Genomic",
     "cancer_associations": "Breast cancer",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Selected PIK3CA mutations"
-    ],
-    "example_therapies": [
-      "Alpelisib",
-      "Inavolisib in relevant settings"
-    ],
-    "testing": [
-      "PCR/NGS"
-    ],
+    "alterations": "Selected PIK3CA mutations",
+    "example_therapies": "Alpelisib; Inavolisib in relevant settings",
+    "testing": "PCR/NGS",
     "trial_search_terms": "PIK3CA mutated breast cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "pik3ca",
-    "cancers": [
-      "Breast cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "ESR1",
     "biomarker_type": "Genomic",
     "cancer_associations": "Breast cancer",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Activating ESR1 mutation"
-    ],
-    "example_therapies": [
-      "Elacestrant",
-      "other relevant endocrine strategies"
-    ],
-    "testing": [
-      "ctDNA/tumour molecular testing"
-    ],
+    "alterations": "Activating ESR1 mutation",
+    "example_therapies": "Elacestrant; other relevant endocrine strategies",
+    "testing": "ctDNA/tumour molecular testing",
     "trial_search_terms": "ESR1 mutated breast cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "esr1",
-    "cancers": [
-      "Breast cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "AKT1",
     "biomarker_type": "Genomic",
     "cancer_associations": "Breast cancer",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Selected activating AKT1 mutations"
-    ],
-    "example_therapies": [
-      "Capivasertib in relevant settings"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "Selected activating AKT1 mutations",
+    "example_therapies": "Capivasertib in relevant settings",
+    "testing": "Molecular testing",
     "trial_search_terms": "AKT1 altered breast cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "akt1",
-    "cancers": [
-      "Breast cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "FGFR2",
     "biomarker_type": "Genomic",
     "cancer_associations": "Cholangiocarcinoma",
     "alteration_type": "Fusion/rearrangement",
-    "alterations": [
-      "FGFR2 fusion/rearrangement"
-    ],
-    "example_therapies": [
-      "Pemigatinib",
-      "Futibatinib"
-    ],
-    "testing": [
-      "NGS/FISH/validated molecular assays"
-    ],
+    "alterations": "FGFR2 fusion/rearrangement",
+    "example_therapies": "Pemigatinib; Futibatinib",
+    "testing": "NGS/FISH/validated molecular assays",
     "trial_search_terms": "FGFR2 fusion cholangiocarcinoma",
-    "evidence_level": "Regulatory/clinical",
-    "id": "fgfr2",
-    "cancers": [
-      "Cholangiocarcinoma"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "IDH1",
     "biomarker_type": "Genomic",
     "cancer_associations": "Cholangiocarcinoma; glioma",
     "alteration_type": "Mutation",
-    "alterations": [
-      "IDH1 mutation"
-    ],
-    "example_therapies": [
-      "Ivosidenib"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "IDH1 mutation",
+    "example_therapies": "Ivosidenib",
+    "testing": "Molecular testing",
     "trial_search_terms": "IDH1 mutated cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "idh1",
-    "cancers": [
-      "Cholangiocarcinoma",
-      "glioma"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "IDH2",
     "biomarker_type": "Genomic",
     "cancer_associations": "Selected myeloid malignancies",
     "alteration_type": "Mutation",
-    "alterations": [
-      "IDH2 mutation"
-    ],
-    "example_therapies": [
-      "Enasidenib"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "IDH2 mutation",
+    "example_therapies": "Enasidenib",
+    "testing": "Molecular testing",
     "trial_search_terms": "IDH2 mutated AML",
-    "evidence_level": "Regulatory/clinical",
-    "id": "idh2",
-    "cancers": [
-      "Selected myeloid malignancies"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "MSI-H",
     "biomarker_type": "Composite genomic",
     "cancer_associations": "Solid tumours",
     "alteration_type": "Instability",
-    "alterations": [
-      "Microsatellite instability-high"
-    ],
-    "example_therapies": [
-      "Pembrolizumab and other relevant immunotherapy strategies"
-    ],
-    "testing": [
-      "PCR",
-      "NGS",
-      "IHC for MMR proteins"
-    ],
+    "alterations": "Microsatellite instability-high",
+    "example_therapies": "Pembrolizumab and other relevant immunotherapy strategies",
+    "testing": "PCR; NGS; IHC for MMR proteins",
     "trial_search_terms": "MSI-H solid tumour",
-    "evidence_level": "Regulatory/clinical",
-    "id": "msi-h",
-    "cancers": [
-      "Solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "dMMR",
     "biomarker_type": "Composite protein/genomic",
     "cancer_associations": "Solid tumours",
     "alteration_type": "Mismatch repair deficiency",
-    "alterations": [
-      "Loss of MMR protein expression/function"
-    ],
-    "example_therapies": [
-      "Pembrolizumab and other relevant immunotherapy strategies"
-    ],
-    "testing": [
-      "IHC",
-      "MSI testing",
-      "NGS"
-    ],
+    "alterations": "Loss of MMR protein expression/function",
+    "example_therapies": "Pembrolizumab and other relevant immunotherapy strategies",
+    "testing": "IHC; MSI testing; NGS",
     "trial_search_terms": "dMMR solid tumour",
-    "evidence_level": "Regulatory/clinical",
-    "id": "dmmr",
-    "cancers": [
-      "Solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "TMB-H",
     "biomarker_type": "Composite genomic",
     "cancer_associations": "Solid tumours",
     "alteration_type": "Mutation burden",
-    "alterations": [
-      "High tumour mutational burden"
-    ],
-    "example_therapies": [
-      "Pembrolizumab in specified settings"
-    ],
-    "testing": [
-      "Validated NGS assay"
-    ],
+    "alterations": "High tumour mutational burden",
+    "example_therapies": "Pembrolizumab in specified settings",
+    "testing": "Validated NGS assay",
     "trial_search_terms": "TMB-H solid tumour",
-    "evidence_level": "Regulatory/clinical",
-    "id": "tmb-h",
-    "cancers": [
-      "Solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "PD-L1",
     "biomarker_type": "Protein",
     "cancer_associations": "Multiple solid tumours",
     "alteration_type": "Expression",
-    "alterations": [
-      "PD-L1 expression by validated assay"
-    ],
-    "example_therapies": [
-      "Pembrolizumab",
-      "atezolizumab",
-      "durvalumab and others by indication"
-    ],
-    "testing": [
-      "IHC companion/diagnostic assays"
-    ],
+    "alterations": "PD-L1 expression by validated assay",
+    "example_therapies": "Pembrolizumab; atezolizumab; durvalumab and others by indication",
+    "testing": "IHC companion/diagnostic assays",
     "trial_search_terms": "PD-L1 expression",
-    "evidence_level": "Regulatory/clinical",
-    "id": "pd-l1",
-    "cancers": [
-      "Multiple solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "PSMA",
     "biomarker_type": "Protein",
     "cancer_associations": "Prostate cancer",
     "alteration_type": "Expression",
-    "alterations": [
-      "PSMA expression"
-    ],
-    "example_therapies": [
-      "Lutetium Lu 177 vipivotide tetraxetan in specified settings"
-    ],
-    "testing": [
-      "PSMA PET imaging"
-    ],
+    "alterations": "PSMA expression",
+    "example_therapies": "Lutetium Lu 177 vipivotide tetraxetan in specified settings",
+    "testing": "PSMA PET imaging",
     "trial_search_terms": "PSMA-positive prostate cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "psma",
-    "cancers": [
-      "Prostate cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "HRD",
     "biomarker_type": "Composite genomic",
     "cancer_associations": "Ovarian and selected cancers",
     "alteration_type": "Genomic instability",
-    "alterations": [
-      "Homologous recombination deficiency"
-    ],
-    "example_therapies": [
-      "PARP inhibitors in specified settings"
-    ],
-    "testing": [
-      "Genomic scar/validated HRD assays"
-    ],
+    "alterations": "Homologous recombination deficiency",
+    "example_therapies": "PARP inhibitors in specified settings",
+    "testing": "Genomic scar/validated HRD assays",
     "trial_search_terms": "HRD positive",
-    "evidence_level": "Clinical/regulatory",
-    "id": "hrd",
-    "cancers": [
-      "Ovarian and selected cancers"
-    ]
+    "evidence_level": "Clinical/regulatory"
   },
   {
     "biomarker": "PALB2",
     "biomarker_type": "Genomic",
     "cancer_associations": "Breast; pancreatic and selected cancers",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Pathogenic PALB2 variant"
-    ],
-    "example_therapies": [
-      "PARP inhibitors/investigational strategies depending on context"
-    ],
-    "testing": [
-      "Germline/tumour sequencing"
-    ],
+    "alterations": "Pathogenic PALB2 variant",
+    "example_therapies": "PARP inhibitors/investigational strategies depending on context",
+    "testing": "Germline/tumour sequencing",
     "trial_search_terms": "PALB2 altered",
-    "evidence_level": "Clinical/investigational",
-    "id": "palb2",
-    "cancers": [
-      "Breast",
-      "pancreatic and selected cancers"
-    ]
+    "evidence_level": "Clinical/investigational"
   },
   {
     "biomarker": "ATM",
     "biomarker_type": "Genomic",
     "cancer_associations": "Prostate and selected cancers",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Pathogenic ATM alteration"
-    ],
-    "example_therapies": [
-      "PARP inhibitor evidence varies by indication"
-    ],
-    "testing": [
-      "Germline/tumour sequencing"
-    ],
+    "alterations": "Pathogenic ATM alteration",
+    "example_therapies": "PARP inhibitor evidence varies by indication",
+    "testing": "Germline/tumour sequencing",
     "trial_search_terms": "ATM altered",
-    "evidence_level": "Clinical",
-    "id": "atm",
-    "cancers": [
-      "Prostate and selected cancers"
-    ]
+    "evidence_level": "Clinical"
   },
   {
     "biomarker": "PTEN",
     "biomarker_type": "Genomic/protein",
     "cancer_associations": "Multiple solid tumours",
     "alteration_type": "Loss/mutation",
-    "alterations": [
-      "PTEN loss or alteration"
-    ],
-    "example_therapies": [
-      "Context-dependent/investigational"
-    ],
-    "testing": [
-      "IHC",
-      "sequencing"
-    ],
+    "alterations": "PTEN loss or alteration",
+    "example_therapies": "Context-dependent/investigational",
+    "testing": "IHC; sequencing",
     "trial_search_terms": "PTEN altered",
-    "evidence_level": "Clinical/investigational",
-    "id": "pten",
-    "cancers": [
-      "Multiple solid tumours"
-    ]
+    "evidence_level": "Clinical/investigational"
   },
   {
     "biomarker": "NF1",
     "biomarker_type": "Genomic",
     "cancer_associations": "Melanoma and selected tumours",
     "alteration_type": "Loss/mutation",
-    "alterations": [
-      "NF1 alteration"
-    ],
-    "example_therapies": [
-      "Context-dependent/investigational"
-    ],
-    "testing": [
-      "Sequencing"
-    ],
+    "alterations": "NF1 alteration",
+    "example_therapies": "Context-dependent/investigational",
+    "testing": "Sequencing",
     "trial_search_terms": "NF1 altered",
-    "evidence_level": "Research",
-    "id": "nf1",
-    "cancers": [
-      "Melanoma and selected tumours"
-    ]
+    "evidence_level": "Research"
   },
   {
     "biomarker": "NRAS",
     "biomarker_type": "Genomic",
     "cancer_associations": "Melanoma",
     "alteration_type": "Mutation",
-    "alterations": [
-      "NRAS mutation"
-    ],
-    "example_therapies": [
-      "Clinical/investigational strategies"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "NRAS mutation",
+    "example_therapies": "Clinical/investigational strategies",
+    "testing": "Molecular testing",
     "trial_search_terms": "NRAS melanoma",
-    "evidence_level": "Clinical/investigational",
-    "id": "nras",
-    "cancers": [
-      "Melanoma"
-    ]
+    "evidence_level": "Clinical/investigational"
   },
   {
     "biomarker": "KIT",
     "biomarker_type": "Genomic",
     "cancer_associations": "Melanoma; GIST and other tumours",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Activating KIT alterations"
-    ],
-    "example_therapies": [
-      "Imatinib and other TKIs by indication"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "Activating KIT alterations",
+    "example_therapies": "Imatinib and other TKIs by indication",
+    "testing": "Molecular testing",
     "trial_search_terms": "KIT altered",
-    "evidence_level": "Regulatory/clinical",
-    "id": "kit",
-    "cancers": [
-      "Melanoma",
-      "GIST and other tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "PDGFRA",
     "biomarker_type": "Genomic",
     "cancer_associations": "GIST",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Selected PDGFRA alterations"
-    ],
-    "example_therapies": [
-      "Imatinib",
-      "avapritinib for selected variants"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "Selected PDGFRA alterations",
+    "example_therapies": "Imatinib; avapritinib for selected variants",
+    "testing": "Molecular testing",
     "trial_search_terms": "PDGFRA altered GIST",
-    "evidence_level": "Regulatory/clinical",
-    "id": "pdgfra",
-    "cancers": [
-      "GIST"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "SDH",
     "biomarker_type": "Genomic",
     "cancer_associations": "GIST/paraganglioma and others",
     "alteration_type": "Loss/mutation",
-    "alterations": [
-      "SDHx alterations"
-    ],
-    "example_therapies": [
-      "Context-dependent"
-    ],
-    "testing": [
-      "IHC",
-      "sequencing"
-    ],
+    "alterations": "SDHx alterations",
+    "example_therapies": "Context-dependent",
+    "testing": "IHC; sequencing",
     "trial_search_terms": "SDH deficient",
-    "evidence_level": "Clinical",
-    "id": "sdh",
-    "cancers": [
-      "GIST/paraganglioma and others"
-    ]
+    "evidence_level": "Clinical"
   },
   {
     "biomarker": "VHL",
     "biomarker_type": "Genomic",
     "cancer_associations": "Renal cell carcinoma",
     "alteration_type": "Mutation/inactivation",
-    "alterations": [
-      "VHL alteration"
-    ],
-    "example_therapies": [
-      "Belzutifan in specified settings"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "VHL alteration",
+    "example_therapies": "Belzutifan in specified settings",
+    "testing": "Molecular testing",
     "trial_search_terms": "VHL altered",
-    "evidence_level": "Regulatory/clinical",
-    "id": "vhl",
-    "cancers": [
-      "Renal cell carcinoma"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "HIF2A",
     "biomarker_type": "Genomic",
     "cancer_associations": "Renal cell carcinoma",
     "alteration_type": "Mutation",
-    "alterations": [
-      "EPAS1/HIF2A alterations"
-    ],
-    "example_therapies": [
-      "Belzutifan targets HIF-2α pathway"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "EPAS1/HIF2A alterations",
+    "example_therapies": "Belzutifan targets HIF-2\u03b1 pathway",
+    "testing": "Molecular testing",
     "trial_search_terms": "HIF pathway",
-    "evidence_level": "Research/clinical",
-    "id": "hif2a",
-    "cancers": [
-      "Renal cell carcinoma"
-    ]
+    "evidence_level": "Research/clinical"
   },
   {
     "biomarker": "MET amplification",
     "biomarker_type": "Genomic",
     "cancer_associations": "Selected solid tumours",
     "alteration_type": "Amplification",
-    "alterations": [
-      "MET amplification"
-    ],
-    "example_therapies": [
-      "Context-dependent targeted strategies"
-    ],
-    "testing": [
-      "FISH/NGS"
-    ],
+    "alterations": "MET amplification",
+    "example_therapies": "Context-dependent targeted strategies",
+    "testing": "FISH/NGS",
     "trial_search_terms": "MET amplified",
-    "evidence_level": "Clinical/investigational",
-    "id": "met-amplification",
-    "cancers": [
-      "Selected solid tumours"
-    ]
+    "evidence_level": "Clinical/investigational"
   },
   {
     "biomarker": "ERBB2 mutation",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC and other solid tumours",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Activating HER2/ERBB2 mutation"
-    ],
-    "example_therapies": [
-      "Selected HER2-directed therapies by indication"
-    ],
-    "testing": [
-      "NGS"
-    ],
+    "alterations": "Activating HER2/ERBB2 mutation",
+    "example_therapies": "Selected HER2-directed therapies by indication",
+    "testing": "NGS",
     "trial_search_terms": "ERBB2 mutated",
-    "evidence_level": "Regulatory/clinical",
-    "id": "erbb2-mutation",
-    "cancers": [
-      "NSCLC and other solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "KRAS G12D",
     "biomarker_type": "Genomic",
     "cancer_associations": "Pancreatic and other solid tumours",
     "alteration_type": "Mutation",
-    "alterations": [
-      "G12D"
-    ],
-    "example_therapies": [
-      "Investigational KRAS G12D inhibitors"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "G12D",
+    "example_therapies": "Investigational KRAS G12D inhibitors",
+    "testing": "Molecular testing",
     "trial_search_terms": "KRAS G12D",
-    "evidence_level": "Investigational",
-    "id": "kras-g12d",
-    "cancers": [
-      "Pancreatic and other solid tumours"
-    ]
+    "evidence_level": "Investigational"
   },
   {
     "biomarker": "KRAS G12V",
     "biomarker_type": "Genomic",
     "cancer_associations": "Multiple solid tumours",
     "alteration_type": "Mutation",
-    "alterations": [
-      "G12V"
-    ],
-    "example_therapies": [
-      "Investigational strategies"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "G12V",
+    "example_therapies": "Investigational strategies",
+    "testing": "Molecular testing",
     "trial_search_terms": "KRAS G12V",
-    "evidence_level": "Investigational",
-    "id": "kras-g12v",
-    "cancers": [
-      "Multiple solid tumours"
-    ]
+    "evidence_level": "Investigational"
   },
   {
     "biomarker": "RET mutation",
     "biomarker_type": "Genomic",
     "cancer_associations": "Medullary thyroid cancer",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Activating RET mutation"
-    ],
-    "example_therapies": [
-      "Selpercatinib",
-      "Pralsetinib"
-    ],
-    "testing": [
-      "Molecular testing"
-    ],
+    "alterations": "Activating RET mutation",
+    "example_therapies": "Selpercatinib; Pralsetinib",
+    "testing": "Molecular testing",
     "trial_search_terms": "RET mutated thyroid cancer",
-    "evidence_level": "Regulatory/clinical",
-    "id": "ret-mutation",
-    "cancers": [
-      "Medullary thyroid cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "ALK mutation",
     "biomarker_type": "Genomic",
     "cancer_associations": "Selected tumours",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Secondary resistance alterations"
-    ],
-    "example_therapies": [
-      "Next-generation ALK inhibitors depending on context"
-    ],
-    "testing": [
-      "NGS"
-    ],
+    "alterations": "Secondary resistance alterations",
+    "example_therapies": "Next-generation ALK inhibitors depending on context",
+    "testing": "NGS",
     "trial_search_terms": "ALK resistance",
-    "evidence_level": "Clinical",
-    "id": "alk-mutation",
-    "cancers": [
-      "Selected tumours"
-    ]
+    "evidence_level": "Clinical"
   },
   {
     "biomarker": "ROS1 resistance",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Mutation",
-    "alterations": [
-      "Secondary ROS1 kinase-domain alterations"
-    ],
-    "example_therapies": [
-      "Next-generation ROS1 inhibitors depending on context"
-    ],
-    "testing": [
-      "NGS"
-    ],
+    "alterations": "Secondary ROS1 kinase-domain alterations",
+    "example_therapies": "Next-generation ROS1 inhibitors depending on context",
+    "testing": "NGS",
     "trial_search_terms": "ROS1 resistance",
-    "evidence_level": "Clinical",
-    "id": "ros1-resistance",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Clinical"
   },
   {
     "biomarker": "EGFR C797S",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Mutation",
-    "alterations": [
-      "C797S resistance alteration"
-    ],
-    "example_therapies": [
-      "Investigational/context-dependent strategies"
-    ],
-    "testing": [
-      "NGS"
-    ],
+    "alterations": "C797S resistance alteration",
+    "example_therapies": "Investigational/context-dependent strategies",
+    "testing": "NGS",
     "trial_search_terms": "EGFR resistance",
-    "evidence_level": "Investigational",
-    "id": "egfr-c797s",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Investigational"
   },
   {
     "biomarker": "EGFR exon 20 insertion",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Insertion",
-    "alterations": [
-      "Exon 20 insertion"
-    ],
-    "example_therapies": [
-      "Amivantamab and other relevant agents by indication"
-    ],
-    "testing": [
-      "NGS/PCR"
-    ],
+    "alterations": "Exon 20 insertion",
+    "example_therapies": "Amivantamab and other relevant agents by indication",
+    "testing": "NGS/PCR",
     "trial_search_terms": "EGFR exon 20 insertion",
-    "evidence_level": "Regulatory/clinical",
-    "id": "egfr-exon-20-insertion",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "MET exon 14 skipping",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Splice alteration",
-    "alterations": [
-      "Exon 14 skipping"
-    ],
-    "example_therapies": [
-      "Capmatinib",
-      "Tepotinib"
-    ],
-    "testing": [
-      "RNA/DNA NGS",
-      "PCR"
-    ],
+    "alterations": "Exon 14 skipping",
+    "example_therapies": "Capmatinib; Tepotinib",
+    "testing": "RNA/DNA NGS; PCR",
     "trial_search_terms": "MET exon 14",
-    "evidence_level": "Regulatory/clinical",
-    "id": "met-exon-14-skipping",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "BRAF fusion",
     "biomarker_type": "Genomic",
     "cancer_associations": "Multiple solid tumours",
     "alteration_type": "Fusion",
-    "alterations": [
-      "BRAF fusion"
-    ],
-    "example_therapies": [
-      "Context-dependent/investigational"
-    ],
-    "testing": [
-      "RNA/DNA NGS"
-    ],
+    "alterations": "BRAF fusion",
+    "example_therapies": "Context-dependent/investigational",
+    "testing": "RNA/DNA NGS",
     "trial_search_terms": "BRAF fusion",
-    "evidence_level": "Clinical/investigational",
-    "id": "braf-fusion",
-    "cancers": [
-      "Multiple solid tumours"
-    ]
+    "evidence_level": "Clinical/investigational"
   },
   {
     "biomarker": "ALK fusion",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Fusion",
-    "alterations": [
-      "ALK rearrangement"
-    ],
-    "example_therapies": [
-      "Alectinib",
-      "Brigatinib",
-      "Lorlatinib"
-    ],
-    "testing": [
-      "FISH/NGS/IHC"
-    ],
+    "alterations": "ALK rearrangement",
+    "example_therapies": "Alectinib; Brigatinib; Lorlatinib",
+    "testing": "FISH/NGS/IHC",
     "trial_search_terms": "ALK NSCLC",
-    "evidence_level": "Regulatory/clinical",
-    "id": "alk-fusion",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "ROS1 fusion",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC",
     "alteration_type": "Fusion",
-    "alterations": [
-      "ROS1 rearrangement"
-    ],
-    "example_therapies": [
-      "Crizotinib",
-      "Entrectinib",
-      "Repotrectinib"
-    ],
-    "testing": [
-      "NGS/FISH"
-    ],
+    "alterations": "ROS1 rearrangement",
+    "example_therapies": "Crizotinib; Entrectinib; Repotrectinib",
+    "testing": "NGS/FISH",
     "trial_search_terms": "ROS1 NSCLC",
-    "evidence_level": "Regulatory/clinical",
-    "id": "ros1-fusion",
-    "cancers": [
-      "NSCLC"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "RET fusion",
     "biomarker_type": "Genomic",
     "cancer_associations": "NSCLC; thyroid cancer",
     "alteration_type": "Fusion",
-    "alterations": [
-      "RET rearrangement"
-    ],
-    "example_therapies": [
-      "Selpercatinib",
-      "Pralsetinib"
-    ],
-    "testing": [
-      "NGS/FISH/PCR"
-    ],
+    "alterations": "RET rearrangement",
+    "example_therapies": "Selpercatinib; Pralsetinib",
+    "testing": "NGS/FISH/PCR",
     "trial_search_terms": "RET fusion",
-    "evidence_level": "Regulatory/clinical",
-    "id": "ret-fusion",
-    "cancers": [
-      "NSCLC",
-      "thyroid cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "TRK fusion",
     "biomarker_type": "Genomic",
     "cancer_associations": "Solid tumours",
     "alteration_type": "Fusion",
-    "alterations": [
-      "NTRK1/2/3 fusion"
-    ],
-    "example_therapies": [
-      "Larotrectinib",
-      "Entrectinib"
-    ],
-    "testing": [
-      "NGS/FISH/IHC with confirmation"
-    ],
+    "alterations": "NTRK1/2/3 fusion",
+    "example_therapies": "Larotrectinib; Entrectinib",
+    "testing": "NGS/FISH/IHC with confirmation",
     "trial_search_terms": "NTRK fusion",
-    "evidence_level": "Regulatory/clinical",
-    "id": "trk-fusion",
-    "cancers": [
-      "Solid tumours"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "FOLR1",
     "biomarker_type": "Protein",
     "cancer_associations": "Ovarian cancer",
     "alteration_type": "Expression",
-    "alterations": [
-      "FRα expression"
-    ],
-    "example_therapies": [
-      "Mirvetuximab soravtansine in specified settings"
-    ],
-    "testing": [
-      "IHC"
-    ],
-    "trial_search_terms": "FOLR1/FRα positive",
-    "evidence_level": "Regulatory/clinical",
-    "id": "folr1",
-    "cancers": [
-      "Ovarian cancer"
-    ]
+    "alterations": "FR\u03b1 expression",
+    "example_therapies": "Mirvetuximab soravtansine in specified settings",
+    "testing": "IHC",
+    "trial_search_terms": "FOLR1/FR\u03b1 positive",
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "Claudin 18.2",
     "biomarker_type": "Protein",
     "cancer_associations": "Gastric/GEJ cancer",
     "alteration_type": "Expression",
-    "alterations": [
-      "CLDN18.2 expression"
-    ],
-    "example_therapies": [
-      "Zolbetuximab in specified settings"
-    ],
-    "testing": [
-      "IHC"
-    ],
+    "alterations": "CLDN18.2 expression",
+    "example_therapies": "Zolbetuximab in specified settings",
+    "testing": "IHC",
     "trial_search_terms": "CLDN18.2 positive",
-    "evidence_level": "Regulatory/clinical",
-    "id": "claudin-18.2",
-    "cancers": [
-      "Gastric/GEJ cancer"
-    ]
+    "evidence_level": "Regulatory/clinical"
   },
   {
     "biomarker": "CEACAM5",
     "biomarker_type": "Protein",
     "cancer_associations": "Selected solid tumours",
     "alteration_type": "Expression",
-    "alterations": [
-      "CEA/CEACAM5 expression"
-    ],
-    "example_therapies": [
-      "Investigational ADC strategies"
-    ],
-    "testing": [
-      "IHC"
-    ],
+    "alterations": "CEA/CEACAM5 expression",
+    "example_therapies": "Investigational ADC strategies",
+    "testing": "IHC",
     "trial_search_terms": "CEACAM5 positive",
-    "evidence_level": "Investigational",
-    "id": "ceacam5",
-    "cancers": [
-      "Selected solid tumours"
-    ]
+    "evidence_level": "Investigational"
   }
 ]

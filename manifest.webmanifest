@@ -1,10 +1,1 @@
-{
-  "name": "OncoMap — Precision Oncology, Simplified",
-  "short_name": "OncoMap",
-  "description": "Research and learning interface for cancer biomarkers, alterations, testing, therapies, evidence and clinical trials.",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f6f8fb",
-  "theme_color": "#102a43",
-  "icons": [{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
-}
+{"name":"OncoMap","short_name":"OncoMap","start_url":"./","display":"standalone","background_color":"#f6f8fc","theme_color":"#0b1020","description":"Precision oncology research and learning platform","icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
